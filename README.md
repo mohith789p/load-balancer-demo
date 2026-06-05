@@ -7,4 +7,4 @@ docker-compose up --build
 ```
 
 ### Open in Browser
-http://localhost:7070
+http://localhost:9000
