@@ -1,0 +1,12 @@
+[package]
+name = "rust-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rust-server"
+path = "app.rs"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1.37", features = ["rt-multi-thread", "macros", "net"] }

@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello from Node.js Server</h1>');
+  res.send('<h1>Hello from NODE Server.</h1>');
 });
 
 app.listen(port, () => {

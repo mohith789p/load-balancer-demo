@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RootController {
     @GetMapping("/")
     public String handleRoot() {
-        return "<h1> Hello From Spring Server!</h1>";
+        return "<h1> Hello from SPRING Server.</h1>";
     }
 }
